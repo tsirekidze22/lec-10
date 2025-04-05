@@ -1,0 +1,48 @@
+/* Header */
+@media (max-width: 900px) {
+  body {
+    background-color: blueviolet;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: red;
+  }
+  .header-content {
+    padding: 0px 12px;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .main-content {
+    flex-direction: column-reverse;
+    padding: 0px 24px;
+    text-align: center;
+    row-gap: 30px;
+    border: 2px solid red;
+  }
+
+  h1 {
+    font-size: 32px;
+    line-height: 40px;
+    width: 312px;
+    margin: 0px auto;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    background-color: green;
+  }
+  h1 {
+    font-size: 28px;
+  }
+}
